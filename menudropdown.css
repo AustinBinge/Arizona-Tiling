@@ -1,0 +1,29 @@
+#nav {
+  margin: 50px;
+  z-index: 10;
+  display: block;
+}
+
+#nav li { float: left; }
+
+#nav li:hover { position: relative }
+
+#nav li a { display: block; }
+ 
+#nav li ul {
+  margin-top: -2px;
+  display: none;
+}
+
+#nav li:hover ul {
+
+  display:block;
+  position:absolute;
+
+}
+
+ 
+
+#nav li ul li a {
+  width: 150px;
+}
